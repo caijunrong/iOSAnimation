@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04538A191B7B7B1E000D76E2 /* UILayerAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04538A181B7B7B1E000D76E2 /* UILayerAnimationViewController.m */; };
+		04538A1F1B7B7C31000D76E2 /* icon_qq_disable.png in Resources */ = {isa = PBXBuildFile; fileRef = 04538A1A1B7B7C31000D76E2 /* icon_qq_disable.png */; };
+		04538A201B7B7C31000D76E2 /* icon_qq.png in Resources */ = {isa = PBXBuildFile; fileRef = 04538A1B1B7B7C31000D76E2 /* icon_qq.png */; };
+		04538A211B7B7C31000D76E2 /* icon_weibo_disable.png in Resources */ = {isa = PBXBuildFile; fileRef = 04538A1C1B7B7C31000D76E2 /* icon_weibo_disable.png */; };
+		04538A221B7B7C31000D76E2 /* icon_weibo.png in Resources */ = {isa = PBXBuildFile; fileRef = 04538A1D1B7B7C31000D76E2 /* icon_weibo.png */; };
+		04538A231B7B7C31000D76E2 /* icon29.png in Resources */ = {isa = PBXBuildFile; fileRef = 04538A1E1B7B7C31000D76E2 /* icon29.png */; };
 		047386F01B78821E009F6543 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 047386EF1B78821E009F6543 /* main.m */; };
 		047386F31B78821E009F6543 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 047386F21B78821E009F6543 /* AppDelegate.m */; };
 		047386F61B78821E009F6543 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047386F51B78821E009F6543 /* ViewController.m */; };
@@ -14,6 +20,14 @@
 		047386FB1B78821E009F6543 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047386FA1B78821E009F6543 /* Images.xcassets */; };
 		047386FE1B78821E009F6543 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 047386FC1B78821E009F6543 /* LaunchScreen.xib */; };
 		0473870A1B78821E009F6543 /* iOSanimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047387091B78821E009F6543 /* iOSanimationTests.m */; };
+		047387161B78AC0A009F6543 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047387141B78AC0A009F6543 /* MainTableViewController.m */; };
+		047387171B78AC0A009F6543 /* MainTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 047387151B78AC0A009F6543 /* MainTableViewController.xib */; };
+		0473871B1B78AF94009F6543 /* NormalButtonShowVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0473871A1B78AF94009F6543 /* NormalButtonShowVC.m */; };
+		0473871E1B78D07E009F6543 /* CustomNButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0473871D1B78D07E009F6543 /* CustomNButton.m */; };
+		0485BF651B7E207900B6E4FD /* iOSanimation_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0485BF641B7E207900B6E4FD /* iOSanimation_Tests.m */; };
+		04DC4E451BA6FE23006FF25B /* AutoLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DC4E431BA6FE23006FF25B /* AutoLayoutViewController.m */; };
+		04DC4E461BA6FE23006FF25B /* AutoLayoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04DC4E441BA6FE23006FF25B /* AutoLayoutViewController.xib */; };
+		8E401A8802DC2A55DC3BBE57 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E29357BA7904DDBE601F4A29 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,9 +38,23 @@
 			remoteGlobalIDString = 047386E91B78821E009F6543;
 			remoteInfo = iOSanimation;
 		};
+		0485BF661B7E207900B6E4FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047386E21B78821E009F6543 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 047386E91B78821E009F6543;
+			remoteInfo = iOSanimation;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04538A171B7B7B1E000D76E2 /* UILayerAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UILayerAnimationViewController.h; sourceTree = "<group>"; };
+		04538A181B7B7B1E000D76E2 /* UILayerAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UILayerAnimationViewController.m; sourceTree = "<group>"; };
+		04538A1A1B7B7C31000D76E2 /* icon_qq_disable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_qq_disable.png; sourceTree = "<group>"; };
+		04538A1B1B7B7C31000D76E2 /* icon_qq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_qq.png; sourceTree = "<group>"; };
+		04538A1C1B7B7C31000D76E2 /* icon_weibo_disable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_weibo_disable.png; sourceTree = "<group>"; };
+		04538A1D1B7B7C31000D76E2 /* icon_weibo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_weibo.png; sourceTree = "<group>"; };
+		04538A1E1B7B7C31000D76E2 /* icon29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon29.png; sourceTree = "<group>"; };
 		047386EA1B78821E009F6543 /* iOSanimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSanimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		047386EE1B78821E009F6543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		047386EF1B78821E009F6543 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +68,22 @@
 		047387031B78821E009F6543 /* iOSanimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSanimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		047387081B78821E009F6543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		047387091B78821E009F6543 /* iOSanimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSanimationTests.m; sourceTree = "<group>"; };
+		047387131B78AC0A009F6543 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		047387141B78AC0A009F6543 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		047387151B78AC0A009F6543 /* MainTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTableViewController.xib; sourceTree = "<group>"; };
+		047387191B78AF94009F6543 /* NormalButtonShowVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalButtonShowVC.h; sourceTree = "<group>"; };
+		0473871A1B78AF94009F6543 /* NormalButtonShowVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalButtonShowVC.m; sourceTree = "<group>"; };
+		0473871C1B78D07E009F6543 /* CustomNButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNButton.h; sourceTree = "<group>"; };
+		0473871D1B78D07E009F6543 /* CustomNButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNButton.m; sourceTree = "<group>"; };
+		0485BF601B7E207900B6E4FD /* iOSanimation Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOSanimation Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0485BF631B7E207900B6E4FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0485BF641B7E207900B6E4FD /* iOSanimation_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSanimation_Tests.m; sourceTree = "<group>"; };
+		04DC4E421BA6FE23006FF25B /* AutoLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutViewController.h; sourceTree = "<group>"; };
+		04DC4E431BA6FE23006FF25B /* AutoLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutViewController.m; sourceTree = "<group>"; };
+		04DC4E441BA6FE23006FF25B /* AutoLayoutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AutoLayoutViewController.xib; sourceTree = "<group>"; };
+		663134A7F1BB6C4C3A608C22 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		AB938925010A7602EA82462C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E29357BA7904DDBE601F4A29 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,10 +91,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E401A8802DC2A55DC3BBE57 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		047387001B78821E009F6543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0485BF5D1B7E207900B6E4FD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -65,7 +117,10 @@
 			children = (
 				047386EC1B78821E009F6543 /* iOSanimation */,
 				047387061B78821E009F6543 /* iOSanimationTests */,
+				0485BF611B7E207900B6E4FD /* iOSanimation Tests */,
 				047386EB1B78821E009F6543 /* Products */,
+				B9A07511417D76E4177AB7BF /* Pods */,
+				E2FC70422946433CBB0549DF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,6 +129,7 @@
 			children = (
 				047386EA1B78821E009F6543 /* iOSanimation.app */,
 				047387031B78821E009F6543 /* iOSanimationTests.xctest */,
+				0485BF601B7E207900B6E4FD /* iOSanimation Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,9 +137,15 @@
 		047386EC1B78821E009F6543 /* iOSanimation */ = {
 			isa = PBXGroup;
 			children = (
+				047387181B78AC13009F6543 /* Code */,
 				047386F11B78821E009F6543 /* AppDelegate.h */,
 				047386F21B78821E009F6543 /* AppDelegate.m */,
 				047386F41B78821E009F6543 /* ViewController.h */,
+				04538A1A1B7B7C31000D76E2 /* icon_qq_disable.png */,
+				04538A1B1B7B7C31000D76E2 /* icon_qq.png */,
+				04538A1C1B7B7C31000D76E2 /* icon_weibo_disable.png */,
+				04538A1D1B7B7C31000D76E2 /* icon_weibo.png */,
+				04538A1E1B7B7C31000D76E2 /* icon29.png */,
 				047386F51B78821E009F6543 /* ViewController.m */,
 				047386F71B78821E009F6543 /* Main.storyboard */,
 				047386FA1B78821E009F6543 /* Images.xcassets */,
@@ -119,6 +181,59 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		047387181B78AC13009F6543 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				04DC4E421BA6FE23006FF25B /* AutoLayoutViewController.h */,
+				04DC4E431BA6FE23006FF25B /* AutoLayoutViewController.m */,
+				04DC4E441BA6FE23006FF25B /* AutoLayoutViewController.xib */,
+				047387131B78AC0A009F6543 /* MainTableViewController.h */,
+				047387141B78AC0A009F6543 /* MainTableViewController.m */,
+				047387151B78AC0A009F6543 /* MainTableViewController.xib */,
+				047387191B78AF94009F6543 /* NormalButtonShowVC.h */,
+				0473871A1B78AF94009F6543 /* NormalButtonShowVC.m */,
+				0473871C1B78D07E009F6543 /* CustomNButton.h */,
+				0473871D1B78D07E009F6543 /* CustomNButton.m */,
+				04538A171B7B7B1E000D76E2 /* UILayerAnimationViewController.h */,
+				04538A181B7B7B1E000D76E2 /* UILayerAnimationViewController.m */,
+			);
+			name = Code;
+			sourceTree = "<group>";
+		};
+		0485BF611B7E207900B6E4FD /* iOSanimation Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0485BF641B7E207900B6E4FD /* iOSanimation_Tests.m */,
+				0485BF621B7E207900B6E4FD /* Supporting Files */,
+			);
+			path = "iOSanimation Tests";
+			sourceTree = "<group>";
+		};
+		0485BF621B7E207900B6E4FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0485BF631B7E207900B6E4FD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B9A07511417D76E4177AB7BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				663134A7F1BB6C4C3A608C22 /* Pods.debug.xcconfig */,
+				AB938925010A7602EA82462C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E2FC70422946433CBB0549DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E29357BA7904DDBE601F4A29 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +241,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0473870D1B78821E009F6543 /* Build configuration list for PBXNativeTarget "iOSanimation" */;
 			buildPhases = (
+				5942431C5CAAB356B89FADDF /* Check Pods Manifest.lock */,
 				047386E61B78821E009F6543 /* Sources */,
 				047386E71B78821E009F6543 /* Frameworks */,
 				047386E81B78821E009F6543 /* Resources */,
+				58B258B4E3747B22605E122E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -157,6 +274,24 @@
 			productReference = 047387031B78821E009F6543 /* iOSanimationTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		0485BF5F1B7E207900B6E4FD /* iOSanimation Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0485BF6A1B7E207A00B6E4FD /* Build configuration list for PBXNativeTarget "iOSanimation Tests" */;
+			buildPhases = (
+				0485BF5C1B7E207900B6E4FD /* Sources */,
+				0485BF5D1B7E207900B6E4FD /* Frameworks */,
+				0485BF5E1B7E207900B6E4FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0485BF671B7E207900B6E4FD /* PBXTargetDependency */,
+			);
+			name = "iOSanimation Tests";
+			productName = "iOSanimation Tests";
+			productReference = 0485BF601B7E207900B6E4FD /* iOSanimation Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -171,6 +306,10 @@
 					};
 					047387021B78821E009F6543 = {
 						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 047386E91B78821E009F6543;
+					};
+					0485BF5F1B7E207900B6E4FD = {
+						CreatedOnToolsVersion = 6.4;
 						TestTargetID = 047386E91B78821E009F6543;
 					};
 				};
@@ -190,6 +329,7 @@
 			targets = (
 				047386E91B78821E009F6543 /* iOSanimation */,
 				047387021B78821E009F6543 /* iOSanimationTests */,
+				0485BF5F1B7E207900B6E4FD /* iOSanimation Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -199,9 +339,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047387171B78AC0A009F6543 /* MainTableViewController.xib in Resources */,
+				04538A211B7B7C31000D76E2 /* icon_weibo_disable.png in Resources */,
 				047386F91B78821E009F6543 /* Main.storyboard in Resources */,
 				047386FE1B78821E009F6543 /* LaunchScreen.xib in Resources */,
 				047386FB1B78821E009F6543 /* Images.xcassets in Resources */,
+				04DC4E461BA6FE23006FF25B /* AutoLayoutViewController.xib in Resources */,
+				04538A201B7B7C31000D76E2 /* icon_qq.png in Resources */,
+				04538A1F1B7B7C31000D76E2 /* icon_qq_disable.png in Resources */,
+				04538A221B7B7C31000D76E2 /* icon_weibo.png in Resources */,
+				04538A231B7B7C31000D76E2 /* icon29.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,14 +359,59 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0485BF5E1B7E207900B6E4FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58B258B4E3747B22605E122E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5942431C5CAAB356B89FADDF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		047386E61B78821E009F6543 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04538A191B7B7B1E000D76E2 /* UILayerAnimationViewController.m in Sources */,
+				047387161B78AC0A009F6543 /* MainTableViewController.m in Sources */,
+				0473871B1B78AF94009F6543 /* NormalButtonShowVC.m in Sources */,
+				04DC4E451BA6FE23006FF25B /* AutoLayoutViewController.m in Sources */,
 				047386F61B78821E009F6543 /* ViewController.m in Sources */,
+				0473871E1B78D07E009F6543 /* CustomNButton.m in Sources */,
 				047386F31B78821E009F6543 /* AppDelegate.m in Sources */,
 				047386F01B78821E009F6543 /* main.m in Sources */,
 			);
@@ -233,6 +425,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0485BF5C1B7E207900B6E4FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0485BF651B7E207900B6E4FD /* iOSanimation_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -240,6 +440,11 @@
 			isa = PBXTargetDependency;
 			target = 047386E91B78821E009F6543 /* iOSanimation */;
 			targetProxy = 047387041B78821E009F6543 /* PBXContainerItemProxy */;
+		};
+		0485BF671B7E207900B6E4FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 047386E91B78821E009F6543 /* iOSanimation */;
+			targetProxy = 0485BF661B7E207900B6E4FD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -347,6 +552,7 @@
 		};
 		0473870E1B78821E009F6543 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 663134A7F1BB6C4C3A608C22 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iOSanimation/Info.plist;
@@ -358,6 +564,7 @@
 		};
 		0473870F1B78821E009F6543 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB938925010A7602EA82462C /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iOSanimation/Info.plist;
@@ -401,6 +608,42 @@
 			};
 			name = Release;
 		};
+		0485BF681B7E207A00B6E4FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOSAnimation.app/iOSAnimation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOSanimation Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		0485BF691B7E207A00B6E4FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOSAnimation.app/iOSAnimation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOSanimation Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -427,6 +670,15 @@
 			buildConfigurations = (
 				047387111B78821E009F6543 /* Debug */,
 				047387121B78821E009F6543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0485BF6A1B7E207A00B6E4FD /* Build configuration list for PBXNativeTarget "iOSanimation Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0485BF681B7E207A00B6E4FD /* Debug */,
+				0485BF691B7E207A00B6E4FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
