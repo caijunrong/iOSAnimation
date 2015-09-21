@@ -32,7 +32,7 @@ static NSString *const MainCellIdentifier = @"cellIdentufier";
 -(void)configTableView{
     self.items = @[@[@"NormalButtonShowVC",[NormalButtonShowVC class]],
                    @[@"UILayerAnimationViewController",[UILayerAnimationViewController class]],
-                   @[@"AutoLayoutViewController",[AutoLayoutViewController class]]
+                   @[@"AutoLayout + runtime",[AutoLayoutViewController class]]
                    ];
     
 //    self.tableView.separatorStyle = UITableViewCellSelectionStyleNone;
@@ -71,7 +71,7 @@ static NSString *const MainCellIdentifier = @"cellIdentufier";
 
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
     UIViewController *controller = [[self.items[indexPath.row] lastObject] new];
     controller.title  = [self.items[indexPath.row] firstObject];
     [self.navigationController pushViewController:controller animated:YES];

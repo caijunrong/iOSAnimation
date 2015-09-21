@@ -27,6 +27,8 @@
 		0485BF651B7E207900B6E4FD /* iOSanimation_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0485BF641B7E207900B6E4FD /* iOSanimation_Tests.m */; };
 		04DC4E451BA6FE23006FF25B /* AutoLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DC4E431BA6FE23006FF25B /* AutoLayoutViewController.m */; };
 		04DC4E461BA6FE23006FF25B /* AutoLayoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04DC4E441BA6FE23006FF25B /* AutoLayoutViewController.xib */; };
+		6056C3301BAF9D7700D9F263 /* My.m in Sources */ = {isa = PBXBuildFile; fileRef = 6056C32F1BAF9D7700D9F263 /* My.m */; };
+		6056C3331BAF9E6D00D9F263 /* Business.m in Sources */ = {isa = PBXBuildFile; fileRef = 6056C3321BAF9E6D00D9F263 /* Business.m */; };
 		8E401A8802DC2A55DC3BBE57 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E29357BA7904DDBE601F4A29 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -81,6 +83,10 @@
 		04DC4E421BA6FE23006FF25B /* AutoLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutViewController.h; sourceTree = "<group>"; };
 		04DC4E431BA6FE23006FF25B /* AutoLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutViewController.m; sourceTree = "<group>"; };
 		04DC4E441BA6FE23006FF25B /* AutoLayoutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AutoLayoutViewController.xib; sourceTree = "<group>"; };
+		6056C32E1BAF9D7700D9F263 /* My.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = My.h; sourceTree = "<group>"; };
+		6056C32F1BAF9D7700D9F263 /* My.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = My.m; sourceTree = "<group>"; };
+		6056C3311BAF9E6D00D9F263 /* Business.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Business.h; sourceTree = "<group>"; };
+		6056C3321BAF9E6D00D9F263 /* Business.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Business.m; sourceTree = "<group>"; };
 		663134A7F1BB6C4C3A608C22 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		AB938925010A7602EA82462C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		E29357BA7904DDBE601F4A29 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,6 +143,7 @@
 		047386EC1B78821E009F6543 /* iOSanimation */ = {
 			isa = PBXGroup;
 			children = (
+				6056C32D1BAF9CBF00D9F263 /* OtherObject */,
 				047387181B78AC13009F6543 /* Code */,
 				047386F11B78821E009F6543 /* AppDelegate.h */,
 				047386F21B78821E009F6543 /* AppDelegate.m */,
@@ -215,6 +222,17 @@
 				0485BF631B7E207900B6E4FD /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6056C32D1BAF9CBF00D9F263 /* OtherObject */ = {
+			isa = PBXGroup;
+			children = (
+				6056C32E1BAF9D7700D9F263 /* My.h */,
+				6056C32F1BAF9D7700D9F263 /* My.m */,
+				6056C3311BAF9E6D00D9F263 /* Business.h */,
+				6056C3321BAF9E6D00D9F263 /* Business.m */,
+			);
+			name = OtherObject;
 			sourceTree = "<group>";
 		};
 		B9A07511417D76E4177AB7BF /* Pods */ = {
@@ -411,8 +429,10 @@
 				0473871B1B78AF94009F6543 /* NormalButtonShowVC.m in Sources */,
 				04DC4E451BA6FE23006FF25B /* AutoLayoutViewController.m in Sources */,
 				047386F61B78821E009F6543 /* ViewController.m in Sources */,
+				6056C3331BAF9E6D00D9F263 /* Business.m in Sources */,
 				0473871E1B78D07E009F6543 /* CustomNButton.m in Sources */,
 				047386F31B78821E009F6543 /* AppDelegate.m in Sources */,
+				6056C3301BAF9D7700D9F263 /* My.m in Sources */,
 				047386F01B78821E009F6543 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
