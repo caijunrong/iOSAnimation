@@ -8,6 +8,9 @@
 
 #import "AutoLayoutViewController.h"
 #import "Business.h"
+#import "Message.h"
+#import "NSObject+AssociatedObject.h"
+#import "UIControl+UIControl_XY.h"
 
 @interface AutoLayoutViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *haiwaidaigou;
@@ -22,9 +25,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
-    _array = [[NSMutableArray alloc]init];
-    NSLog(@"_array.count:%d",(int)_array.count);
+    
+    self.haiwaidaigou.cjr_acceptEventInterval = 5.0f;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -45,8 +47,17 @@
 
 - (IBAction)btnHaiWai:(id)sender {
     
-    Business *bs = [[Business alloc]init];
-    [bs sendNoneMethod:@"iPhone"];
+//    Business *bs = [[Business alloc]init];
+//    [bs sendNoneMethod:@"iPhone"];
+    
+    
+    Message *message = [Message new];
+    [message sendMessage:@"Sam Lau"];
+    
+    NSObject *objc = [NSObject new];
+    objc.associatedObject = @"Extend Category";
+    NSLog(@"associatedObject is = %@", objc.associatedObject);
+    
     
 }
 
