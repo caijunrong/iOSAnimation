@@ -32,6 +32,7 @@
 		6012C95E1BBA62900088B1C5 /* NSObject+AssociatedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6012C9591BBA62900088B1C5 /* NSObject+AssociatedObject.m */; settings = {ASSET_TAGS = (); }; };
 		6012C95F1BBA62900088B1C5 /* UIViewController+Logging.m in Sources */ = {isa = PBXBuildFile; fileRef = 6012C95B1BBA62900088B1C5 /* UIViewController+Logging.m */; settings = {ASSET_TAGS = (); }; };
 		6012C9651BBA694F0088B1C5 /* UIControl+UIControl_XY.m in Sources */ = {isa = PBXBuildFile; fileRef = 6012C9641BBA694F0088B1C5 /* UIControl+UIControl_XY.m */; settings = {ASSET_TAGS = (); }; };
+		6012C9681BBA81610088B1C5 /* NetURLDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6012C9671BBA81610088B1C5 /* NetURLDemo.m */; settings = {ASSET_TAGS = (); }; };
 		6056C3301BAF9D7700D9F263 /* My.m in Sources */ = {isa = PBXBuildFile; fileRef = 6056C32F1BAF9D7700D9F263 /* My.m */; };
 		6056C3331BAF9E6D00D9F263 /* Business.m in Sources */ = {isa = PBXBuildFile; fileRef = 6056C3321BAF9E6D00D9F263 /* Business.m */; };
 		8E401A8802DC2A55DC3BBE57 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E29357BA7904DDBE601F4A29 /* libPods.a */; };
@@ -98,6 +99,8 @@
 		6012C95B1BBA62900088B1C5 /* UIViewController+Logging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Logging.m"; sourceTree = "<group>"; };
 		6012C9631BBA694F0088B1C5 /* UIControl+UIControl_XY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+UIControl_XY.h"; sourceTree = "<group>"; };
 		6012C9641BBA694F0088B1C5 /* UIControl+UIControl_XY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+UIControl_XY.m"; sourceTree = "<group>"; };
+		6012C9661BBA81610088B1C5 /* NetURLDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetURLDemo.h; sourceTree = "<group>"; };
+		6012C9671BBA81610088B1C5 /* NetURLDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetURLDemo.m; sourceTree = "<group>"; };
 		6056C32E1BAF9D7700D9F263 /* My.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = My.h; sourceTree = "<group>"; };
 		6056C32F1BAF9D7700D9F263 /* My.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = My.m; sourceTree = "<group>"; };
 		6056C3311BAF9E6D00D9F263 /* Business.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Business.h; sourceTree = "<group>"; };
@@ -219,6 +222,8 @@
 				0473871D1B78D07E009F6543 /* CustomNButton.m */,
 				04538A171B7B7B1E000D76E2 /* UILayerAnimationViewController.h */,
 				04538A181B7B7B1E000D76E2 /* UILayerAnimationViewController.m */,
+				6012C9661BBA81610088B1C5 /* NetURLDemo.h */,
+				6012C9671BBA81610088B1C5 /* NetURLDemo.m */,
 			);
 			name = Code;
 			sourceTree = "<group>";
@@ -463,6 +468,7 @@
 				04DC4E451BA6FE23006FF25B /* AutoLayoutViewController.m in Sources */,
 				047386F61B78821E009F6543 /* ViewController.m in Sources */,
 				6056C3331BAF9E6D00D9F263 /* Business.m in Sources */,
+				6012C9681BBA81610088B1C5 /* NetURLDemo.m in Sources */,
 				6012C9651BBA694F0088B1C5 /* UIControl+UIControl_XY.m in Sources */,
 				0473871E1B78D07E009F6543 /* CustomNButton.m in Sources */,
 				6012C95E1BBA62900088B1C5 /* NSObject+AssociatedObject.m in Sources */,

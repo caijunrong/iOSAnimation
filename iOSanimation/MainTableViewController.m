@@ -10,6 +10,7 @@
 #import "NormalButtonShowVC.h"
 #import "UILayerAnimationViewController.h"
 #import "AutoLayoutViewController.h"
+#import "NetURLDemo.h"
 
 static NSString *const MainCellIdentifier = @"cellIdentufier";
 
@@ -32,7 +33,8 @@ static NSString *const MainCellIdentifier = @"cellIdentufier";
 -(void)configTableView{
     self.items = @[@[@"NormalButtonShowVC",[NormalButtonShowVC class]],
                    @[@"UILayerAnimationViewController",[UILayerAnimationViewController class]],
-                   @[@"AutoLayout + runtime",[AutoLayoutViewController class]]
+                   @[@"AutoLayout + runtime",[AutoLayoutViewController class]],
+                   @[@"NetURLDemo",[NetURLDemo class]]
                    ];
     
 //    self.tableView.separatorStyle = UITableViewCellSelectionStyleNone;
