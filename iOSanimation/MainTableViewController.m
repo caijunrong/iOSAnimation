@@ -11,6 +11,7 @@
 #import "UILayerAnimationViewController.h"
 #import "AutoLayoutViewController.h"
 #import "NetURLDemo.h"
+#import "CoreDataDemo.h"
 
 static NSString *const MainCellIdentifier = @"cellIdentufier";
 
@@ -27,14 +28,14 @@ static NSString *const MainCellIdentifier = @"cellIdentufier";
     
     [self configTableView];
     
-    
 }
 
 -(void)configTableView{
     self.items = @[@[@"NormalButtonShowVC",[NormalButtonShowVC class]],
                    @[@"UILayerAnimationViewController",[UILayerAnimationViewController class]],
                    @[@"AutoLayout + runtime",[AutoLayoutViewController class]],
-                   @[@"NetURL网路请求的两种方式",[NetURLDemo class]]
+                   @[@"NSURLConnection & NSURLSession",[NetURLDemo class]],
+                   @[@"CoreData",[CoreDataDemo class]]
                    ];
     
 //    self.tableView.separatorStyle = UITableViewCellSelectionStyleNone;

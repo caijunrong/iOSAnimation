@@ -11,7 +11,8 @@
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
+@property (strong, nonatomic) UIManagedDocument *managedDocument;
+@property (strong, nonatomic) NSManagedObjectContext *objectContext;
 
 @end
 
