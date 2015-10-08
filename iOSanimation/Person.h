@@ -19,6 +19,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, retain) NSString * name;
 @property (nonatomic, retain) NSNumber * age;
 @property (nonatomic, retain) Card *card;
+
+
 @end
 
 NS_ASSUME_NONNULL_END
