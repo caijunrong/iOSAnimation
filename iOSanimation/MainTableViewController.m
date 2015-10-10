@@ -12,6 +12,7 @@
 #import "AutoLayoutViewController.h"
 #import "NetURLDemo.h"
 #import "CoreDataDemo.h"
+#import "HorizontalCollectonTableViewController.h"
 
 static NSString *const MainCellIdentifier = @"cellIdentufier";
 
@@ -35,7 +36,8 @@ static NSString *const MainCellIdentifier = @"cellIdentufier";
                    @[@"UILayerAnimationViewController",[UILayerAnimationViewController class]],
                    @[@"AutoLayout + runtime",[AutoLayoutViewController class]],
                    @[@"NSURLConnection & NSURLSession",[NetURLDemo class]],
-                   @[@"CoreData",[CoreDataDemo class]]
+                   @[@"CoreData",[CoreDataDemo class]],
+                   @[@"HorizontalCollectonTableViewController",[HorizontalCollectonTableViewController class]]
                    ];
     
 //    self.tableView.separatorStyle = UITableViewCellSelectionStyleNone;
