@@ -42,6 +42,8 @@
 		607C21761BC90C6A00195E00 /* RegExCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 607C21731BC90C6A00195E00 /* RegExCategories.m */; settings = {ASSET_TAGS = (); }; };
 		607C21791BC90CA400195E00 /* RegExpModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 607C21781BC90CA400195E00 /* RegExpModel.m */; settings = {ASSET_TAGS = (); }; };
 		607C21821BC90F5800195E00 /* HorizontalCTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 607C21811BC90F5800195E00 /* HorizontalCTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		607C21861BC918DD00195E00 /* SpecialHorizontalCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 607C21841BC918DD00195E00 /* SpecialHorizontalCollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		607C21871BC918DD00195E00 /* SpecialHorizontalCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607C21851BC918DD00195E00 /* SpecialHorizontalCollectionViewCell.xib */; settings = {ASSET_TAGS = (); }; };
 		60BB5F471BBBCE8300CAA14E /* CoreDataDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BB5F461BBBCE8300CAA14E /* CoreDataDemo.m */; settings = {ASSET_TAGS = (); }; };
 		60BB5F541BBBD5FE00CAA14E /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 60BB5F521BBBD5FE00CAA14E /* Model.xcdatamodeld */; settings = {ASSET_TAGS = (); }; };
 		60BB5F561BBBD6DD00CAA14E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60BB5F551BBBD6DD00CAA14E /* CoreData.framework */; };
@@ -134,6 +136,9 @@
 		607C21781BC90CA400195E00 /* RegExpModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegExpModel.m; sourceTree = "<group>"; };
 		607C21801BC90F5800195E00 /* HorizontalCTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalCTableViewCell.h; sourceTree = "<group>"; };
 		607C21811BC90F5800195E00 /* HorizontalCTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalCTableViewCell.m; sourceTree = "<group>"; };
+		607C21831BC918DD00195E00 /* SpecialHorizontalCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecialHorizontalCollectionViewCell.h; sourceTree = "<group>"; };
+		607C21841BC918DD00195E00 /* SpecialHorizontalCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecialHorizontalCollectionViewCell.m; sourceTree = "<group>"; };
+		607C21851BC918DD00195E00 /* SpecialHorizontalCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpecialHorizontalCollectionViewCell.xib; sourceTree = "<group>"; };
 		60BB5F451BBBCE8300CAA14E /* CoreDataDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataDemo.h; sourceTree = "<group>"; };
 		60BB5F461BBBCE8300CAA14E /* CoreDataDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataDemo.m; sourceTree = "<group>"; };
 		60BB5F531BBBD5FE00CAA14E /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
@@ -370,6 +375,9 @@
 				607C21661BC9086300195E00 /* BigImageTableViewCell.m */,
 				607C21801BC90F5800195E00 /* HorizontalCTableViewCell.h */,
 				607C21811BC90F5800195E00 /* HorizontalCTableViewCell.m */,
+				607C21831BC918DD00195E00 /* SpecialHorizontalCollectionViewCell.h */,
+				607C21841BC918DD00195E00 /* SpecialHorizontalCollectionViewCell.m */,
+				607C21851BC918DD00195E00 /* SpecialHorizontalCollectionViewCell.xib */,
 			);
 			name = Cell;
 			sourceTree = "<group>";
@@ -523,6 +531,7 @@
 				04DC4E461BA6FE23006FF25B /* AutoLayoutViewController.xib in Resources */,
 				04538A201B7B7C31000D76E2 /* icon_qq.png in Resources */,
 				04538A1F1B7B7C31000D76E2 /* icon_qq_disable.png in Resources */,
+				607C21871BC918DD00195E00 /* SpecialHorizontalCollectionViewCell.xib in Resources */,
 				04538A221B7B7C31000D76E2 /* icon_weibo.png in Resources */,
 				04538A231B7B7C31000D76E2 /* icon29.png in Resources */,
 			);
@@ -595,6 +604,7 @@
 				6012C9681BBA81610088B1C5 /* NetURLDemo.m in Sources */,
 				6012C9651BBA694F0088B1C5 /* UIControl+UIControl_XY.m in Sources */,
 				0473871E1B78D07E009F6543 /* CustomNButton.m in Sources */,
+				607C21861BC918DD00195E00 /* SpecialHorizontalCollectionViewCell.m in Sources */,
 				6012C95E1BBA62900088B1C5 /* NSObject+AssociatedObject.m in Sources */,
 				607C21761BC90C6A00195E00 /* RegExCategories.m in Sources */,
 				6012C95F1BBA62900088B1C5 /* UIViewController+Logging.m in Sources */,

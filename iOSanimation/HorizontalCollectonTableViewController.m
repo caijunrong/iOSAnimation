@@ -67,12 +67,10 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
     return _specilArray.count;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
     return 2;
 }
 
@@ -98,6 +96,7 @@
     
     if (indexPath.row == 1) {
         HorizontalCTableViewCell *hoCell = [HorizontalCTableViewCell cellWithTableView:tableView];
+        hoCell.modelArray = sModel.listRecommendInfo;
         return hoCell;
     }
     

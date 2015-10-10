@@ -8,7 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HorizontalCTableViewCell : UITableViewCell
+@interface HorizontalCTableViewCell : UITableViewCell<UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout>
+
+@property (nonatomic) CGFloat horizontalSpace;
+@property (nonatomic, strong) NSMutableArray *modelArray;
+
 + (instancetype)cellWithTableView:(UITableView *)tableView;
 
 @end
