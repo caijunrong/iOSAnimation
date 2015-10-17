@@ -33,6 +33,7 @@
 		6012C95F1BBA62900088B1C5 /* UIViewController+Logging.m in Sources */ = {isa = PBXBuildFile; fileRef = 6012C95B1BBA62900088B1C5 /* UIViewController+Logging.m */; settings = {ASSET_TAGS = (); }; };
 		6012C9651BBA694F0088B1C5 /* UIControl+UIControl_XY.m in Sources */ = {isa = PBXBuildFile; fileRef = 6012C9641BBA694F0088B1C5 /* UIControl+UIControl_XY.m */; settings = {ASSET_TAGS = (); }; };
 		6012C9681BBA81610088B1C5 /* NetURLDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6012C9671BBA81610088B1C5 /* NetURLDemo.m */; settings = {ASSET_TAGS = (); }; };
+		603B5F8F1BD2499E00336D04 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 603B5F8E1BD2499E00336D04 /* iCarousel.m */; settings = {ASSET_TAGS = (); }; };
 		6056C3301BAF9D7700D9F263 /* My.m in Sources */ = {isa = PBXBuildFile; fileRef = 6056C32F1BAF9D7700D9F263 /* My.m */; };
 		6056C3331BAF9E6D00D9F263 /* Business.m in Sources */ = {isa = PBXBuildFile; fileRef = 6056C3321BAF9E6D00D9F263 /* Business.m */; };
 		6068B0F21BD0AC23002F0383 /* LYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6068B0F11BD0AC23002F0383 /* LYViewController.m */; settings = {ASSET_TAGS = (); }; };
@@ -131,6 +132,8 @@
 		6012C9641BBA694F0088B1C5 /* UIControl+UIControl_XY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+UIControl_XY.m"; sourceTree = "<group>"; };
 		6012C9661BBA81610088B1C5 /* NetURLDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetURLDemo.h; sourceTree = "<group>"; };
 		6012C9671BBA81610088B1C5 /* NetURLDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetURLDemo.m; sourceTree = "<group>"; };
+		603B5F8D1BD2499E00336D04 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		603B5F8E1BD2499E00336D04 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
 		6056C32E1BAF9D7700D9F263 /* My.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = My.h; sourceTree = "<group>"; };
 		6056C32F1BAF9D7700D9F263 /* My.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = My.m; sourceTree = "<group>"; };
 		6056C3311BAF9E6D00D9F263 /* Business.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Business.h; sourceTree = "<group>"; };
@@ -350,6 +353,15 @@
 			name = Runtime;
 			sourceTree = "<group>";
 		};
+		603B5F8C1BD2499300336D04 /* 3D */ = {
+			isa = PBXGroup;
+			children = (
+				603B5F8D1BD2499E00336D04 /* iCarousel.h */,
+				603B5F8E1BD2499E00336D04 /* iCarousel.m */,
+			);
+			name = 3D;
+			sourceTree = "<group>";
+		};
 		6056C32D1BAF9CBF00D9F263 /* OtherObject */ = {
 			isa = PBXGroup;
 			children = (
@@ -366,6 +378,7 @@
 		6068B0EF1BD0AC13002F0383 /* CAAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				603B5F8C1BD2499300336D04 /* 3D */,
 				6068B0F61BD0AC43002F0383 /* images */,
 				6068B0F01BD0AC23002F0383 /* LYViewController.h */,
 				6068B0F11BD0AC23002F0383 /* LYViewController.m */,
@@ -684,6 +697,7 @@
 				607C21761BC90C6A00195E00 /* RegExCategories.m in Sources */,
 				6012C95F1BBA62900088B1C5 /* UIViewController+Logging.m in Sources */,
 				607C21601BC9027700195E00 /* SpecialListModel.m in Sources */,
+				603B5F8F1BD2499E00336D04 /* iCarousel.m in Sources */,
 				047386F31B78821E009F6543 /* AppDelegate.m in Sources */,
 				607C21791BC90CA400195E00 /* RegExpModel.m in Sources */,
 				607C215A1BC9007200195E00 /* HorizontalCollectonTableViewController.m in Sources */,
