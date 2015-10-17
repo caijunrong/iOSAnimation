@@ -12,7 +12,8 @@
 
 @property (nonatomic) CGFloat horizontalSpace;
 @property (nonatomic, strong) NSMutableArray *modelArray;
+@property (nonatomic, strong) UICollectionView *myCollectionView;
 
 + (instancetype)cellWithTableView:(UITableView *)tableView;
-
+-(void)initCollectionCell;
 @end

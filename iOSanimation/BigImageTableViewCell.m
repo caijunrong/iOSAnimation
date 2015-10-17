@@ -16,10 +16,10 @@
 
 + (instancetype)cellWithTableView:(UITableView *)tableView{
     
-    static NSString *cellID = @"BigImageTableViewCell";
-    BigImageTableViewCell *bCell = [tableView dequeueReusableCellWithIdentifier:cellID];
+    static NSString *bigImageCellID = @"BigImageTableViewCell";
+    BigImageTableViewCell *bCell = [tableView dequeueReusableCellWithIdentifier:bigImageCellID];
     if (!bCell) {
-        bCell = [[BigImageTableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellID];
+        bCell = [[BigImageTableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:bigImageCellID];
     }
     return bCell;
 }

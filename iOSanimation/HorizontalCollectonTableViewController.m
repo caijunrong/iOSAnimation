@@ -37,7 +37,7 @@
         sModel.strSpecialImage = @"http://pic.biyabi.com/image/2015/10/10/20151010095611_5444_3251.jpg";
 
         NSMutableArray *infoListarray = [[NSMutableArray alloc]init];
-        for (int i = 0; i < 6; i++) {
+        for (int i = 0; i < 12; i++) {
             
             InfoListModel *lmodel = [[InfoListModel alloc]init];
             lmodel.InfoTitle = @"这是用来做测试的title";
@@ -46,6 +46,7 @@
             lmodel.MainImage = @"http://pic.biyabi.com/image/2015/10/10/20151010162104_2476_8215_small.png";
             [infoListarray addObject:lmodel];
         }
+        sModel.listRecommendInfo = infoListarray;
         [_specilArray addObject:sModel];
     }
     
@@ -78,7 +79,7 @@
     if (indexPath.row == 0) {
         return [UIScreen mainScreen].bounds.size.width/2;
     }else{
-        return [UIScreen mainScreen].bounds.size.width/4;
+        return 190;
     }
     return 0;
 }
@@ -92,12 +93,13 @@
         BigImageTableViewCell *bigImageCell = [BigImageTableViewCell cellWithTableView:tableView];
         [bigImageCell.bigImageView sd_setImageWithURL:[NSURL URLWithString:sModel.strSpecialImage]];
         return bigImageCell;
-    }
-    
-    if (indexPath.row == 1) {
+    }else if (indexPath.row == 1) {
         HorizontalCTableViewCell *hoCell = [HorizontalCTableViewCell cellWithTableView:tableView];
         hoCell.modelArray = sModel.listRecommendInfo;
+        [hoCell initCollectionCell];
         return hoCell;
+    }else{
+        NSLog(@"error tableview");
     }
     
     return nil;

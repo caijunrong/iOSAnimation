@@ -10,7 +10,7 @@
 #import <objc/runtime.h>
 
 @implementation UIViewController (Logging)
-
+/*
 + (void)load
 {
     swizzleMethod([self class], @selector(viewDidAppear:), @selector(swizzled_viewDidAppear:));
@@ -43,5 +43,5 @@ void swizzleMethod(Class class, SEL originalSelector, SEL swizzledSelector)
     }
     
 }
-
+*/
 @end

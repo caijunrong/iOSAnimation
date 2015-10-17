@@ -13,6 +13,7 @@
 #import "NetURLDemo.h"
 #import "CoreDataDemo.h"
 #import "HorizontalCollectonTableViewController.h"
+#import "BigImageViewController.h"
 
 static NSString *const MainCellIdentifier = @"cellIdentufier";
 
@@ -37,7 +38,8 @@ static NSString *const MainCellIdentifier = @"cellIdentufier";
                    @[@"AutoLayout + runtime",[AutoLayoutViewController class]],
                    @[@"NSURLConnection & NSURLSession",[NetURLDemo class]],
                    @[@"CoreData",[CoreDataDemo class]],
-                   @[@"HorizontalCollectonTableViewController",[HorizontalCollectonTableViewController class]]
+                   @[@"HorizontalCollectonTableViewController",[HorizontalCollectonTableViewController class]],
+                   @[@"关于大图片展示压缩",[BigImageViewController class]]
                    ];
     
 //    self.tableView.separatorStyle = UITableViewCellSelectionStyleNone;

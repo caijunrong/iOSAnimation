@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface SpecialHorizontalCollectionViewCell : UICollectionViewCell
+@property (weak, nonatomic) IBOutlet UIImageView *titleImage;
+@property (weak, nonatomic) IBOutlet UILabel *titleName;
+@property (weak, nonatomic) IBOutlet UILabel *priceString;
 
 @end
