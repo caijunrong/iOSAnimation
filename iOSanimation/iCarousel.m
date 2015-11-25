@@ -50,7 +50,6 @@
 #pragma GCC diagnostic ignored "-Wselector"
 #pragma GCC diagnostic ignored "-Wgnu"
 
-
 #define MIN_TOGGLE_DURATION 0.2
 #define MAX_TOGGLE_DURATION 0.4
 #define SCROLL_DURATION 0.4

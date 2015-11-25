@@ -14,6 +14,8 @@
 #import "CoreDataDemo.h"
 #import "HorizontalCollectonTableViewController.h"
 #import "BigImageViewController.h"
+#import "CAShapLayerViewController.h"
+#import "Transform3DViewController.h"
 
 static NSString *const MainCellIdentifier = @"cellIdentufier";
 
@@ -39,7 +41,9 @@ static NSString *const MainCellIdentifier = @"cellIdentufier";
                    @[@"NSURLConnection & NSURLSession",[NetURLDemo class]],
                    @[@"CoreData",[CoreDataDemo class]],
                    @[@"HorizontalCollectonTableViewController",[HorizontalCollectonTableViewController class]],
-                   @[@"关于大图片展示压缩",[BigImageViewController class]]
+                   @[@"关于大图片展示压缩",[BigImageViewController class]],
+                   @[@"CAShapLayer",[CAShapLayerViewController class]],
+                   @[@"Transform3D",[Transform3DViewController class]]
                    ];
     
 //    self.tableView.separatorStyle = UITableViewCellSelectionStyleNone;
